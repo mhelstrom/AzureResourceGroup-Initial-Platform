@@ -2,6 +2,7 @@
 (
 	[CustomerID] INT NOT NULL, 
     [CustomerName] VARCHAR(50) NULL, 
-    [CustomerLocation] NCHAR(10) NULL
+    [CustomerLocation] NCHAR(10) NULL,
+        [TestColumn] NCHAR(10) NULL
     CONSTRAINT [PK_Table1] PRIMARY KEY ([CustomerID]) 
 )
